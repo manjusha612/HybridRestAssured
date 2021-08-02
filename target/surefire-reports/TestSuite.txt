@@ -1,0 +1,102 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 70.072 s <<< FAILURE! - in TestSuite
+test03(positions_testcase.TestCase03_MoreThan10Timestamps)  Time elapsed: 2.233 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at positions_testcase.TestCase03_MoreThan10Timestamps.test03(TestCase03_MoreThan10Timestamps.java:27)
+
+test04(positions_testcase.TestCase04_Blank_ID)  Time elapsed: 2.421 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase04_Blank_ID.test04(TestCase04_Blank_ID.java:26)
+
+test05(positions_testcase.TestCase05_Non_Numerical_ID)  Time elapsed: 3.199 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase05_Non_Numerical_ID.test05(TestCase05_Non_Numerical_ID.java:26)
+
+test06(positions_testcase.TestCase06_Negative_ID)  Time elapsed: 2.25 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase06_Negative_ID.test06(TestCase06_Negative_ID.java:26)
+
+test07(positions_testcase.TestCase07_NonExistent_ID)  Time elapsed: 2.434 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase07_NonExistent_ID.test07(TestCase07_NonExistent_ID.java:26)
+
+test14(positions_testcase.TestCase14_1000_character_long_id)  Time elapsed: 2.009 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase14_1000_character_long_id.test14(TestCase14_1000_character_long_id.java:27)
+
+test17(positions_testcase.TestCase17_special_characters_in_id)  Time elapsed: 1.95 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase17_special_characters_in_id.test17(TestCase17_special_characters_in_id.java:26)
+
+test18(positions_testcase.TestCase18_special_characters_in_units)  Time elapsed: 2.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at positions_testcase.TestCase18_special_characters_in_units.test18(TestCase18_special_characters_in_units.java:27)
+
+test21(tle_testcase.TestCase21_Blank_ID)  Time elapsed: 2.56 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase21_Blank_ID.test21(TestCase21_Blank_ID.java:25)
+
+test22(tle_testcase.TestCase22_Non_Numerical_ID)  Time elapsed: 2.273 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase22_Non_Numerical_ID.test22(TestCase22_Non_Numerical_ID.java:26)
+
+test23(tle_testcase.TestCase23_Negative_ID)  Time elapsed: 1.749 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase23_Negative_ID.test23(TestCase23_Negative_ID.java:26)
+
+test24(tle_testcase.TestCase24_NonExistent_ID)  Time elapsed: 1.735 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase24_NonExistent_ID.test24(TestCase24_NonExistent_ID.java:26)
+
+test25(tle_testcase.TestCase25_1000_character_long_ID)  Time elapsed: 2.022 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase25_1000_character_long_ID.test25(TestCase25_1000_character_long_ID.java:26)
+
+test26(tle_testcase.TestCase26_special_characters_in_ID)  Time elapsed: 2.647 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase26_special_characters_in_ID.test26(TestCase26_special_characters_in_ID.java:26)
+

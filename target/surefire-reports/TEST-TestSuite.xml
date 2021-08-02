@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="70.072" tests="26" errors="0" skipped="0" failures="14">
+  <properties>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\manju\IdeaProjects\HybridRestAssured"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\manju\IdeaProjects\HybridRestAssured"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\manju\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Git\cmd;C:\Windows\apache-maven-3.8.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\manju\AppData\Local\Microsoft\WindowsApps;C:\Users\manju\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\manju"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="manju"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.1.3 clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test01" classname="positions_testcase.TestCase01_HappyPath_One_Timestamp" time="7.427"/>
+  <testcase name="test02" classname="positions_testcase.TestCase02_HappyPath_Ten_Timestamps" time="2.87"/>
+  <testcase name="test03" classname="positions_testcase.TestCase03_MoreThan10Timestamps" time="2.233">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at positions_testcase.TestCase03_MoreThan10Timestamps.test03(TestCase03_MoreThan10Timestamps.java:27)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/25544/positions?timestamps=1872507593,5147049800,8631589111,4827218768,3602963493,2340661766,8044648926,1977785981,6776823115,3287600938,5435154034&units=miles
+]]></system-out>
+  </testcase>
+  <testcase name="test04" classname="positions_testcase.TestCase04_Blank_ID" time="2.421">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase04_Blank_ID.test04(TestCase04_Blank_ID.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/0/positions?timestamps=9738505538&units=miles
+]]></system-out>
+  </testcase>
+  <testcase name="test05" classname="positions_testcase.TestCase05_Non_Numerical_ID" time="3.199">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase05_Non_Numerical_ID.test05(TestCase05_Non_Numerical_ID.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/abcd/positions?timestamps=4864108395&units=miles
+]]></system-out>
+  </testcase>
+  <testcase name="test06" classname="positions_testcase.TestCase06_Negative_ID" time="2.25">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase06_Negative_ID.test06(TestCase06_Negative_ID.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/-25544/positions?timestamps=6517865249&units=miles
+]]></system-out>
+  </testcase>
+  <testcase name="test07" classname="positions_testcase.TestCase07_NonExistent_ID" time="2.434">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase07_NonExistent_ID.test07(TestCase07_NonExistent_ID.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/0/positions?timestamps=9231337088&units=miles
+]]></system-out>
+  </testcase>
+  <testcase name="test08" classname="positions_testcase.TestCase08_Blank_Timestamp" time="2.42"/>
+  <testcase name="test09" classname="positions_testcase.TestCase09_Non_Numerical_Timestamp" time="1.883"/>
+  <testcase name="test10" classname="positions_testcase.TestCase10_Negative_Timestamp" time="2.721"/>
+  <testcase name="test11" classname="positions_testcase.TestCase11_Blank_Units" time="2.043"/>
+  <testcase name="test12" classname="positions_testcase.TestCase12_Default_Units" time="1.915"/>
+  <testcase name="test13" classname="positions_testcase.TestCase13_Units_Miles" time="2.581"/>
+  <testcase name="test14" classname="positions_testcase.TestCase14_1000_character_long_id" time="2.009">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase14_1000_character_long_id.test14(TestCase14_1000_character_long_id.java:27)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/positions?timestamps=5170195939&units=miles
+]]></system-out>
+  </testcase>
+  <testcase name="test15" classname="positions_testcase.TestCase15_1000_character_long_timestamp" time="2.269"/>
+  <testcase name="test16" classname="positions_testcase.TestCase16_special_characters_in_timestamp" time="1.789"/>
+  <testcase name="test17" classname="positions_testcase.TestCase17_special_characters_in_id" time="1.95">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at positions_testcase.TestCase17_special_characters_in_id.test17(TestCase17_special_characters_in_id.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/$$$/positions?timestamps=1549527775&units=miles
+]]></system-out>
+  </testcase>
+  <testcase name="test18" classname="positions_testcase.TestCase18_special_characters_in_units" time="2.004">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at positions_testcase.TestCase18_special_characters_in_units.test18(TestCase18_special_characters_in_units.java:27)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/25544/positions?timestamps=1567921646&units=$$$
+]]></system-out>
+  </testcase>
+  <testcase name="test19" classname="tle_testcase.TestCase19_HappyPath_JSON" time="3.303"/>
+  <testcase name="test20" classname="tle_testcase.TestCase20_HappyPathText" time="4.743"/>
+  <testcase name="test21" classname="tle_testcase.TestCase21_Blank_ID" time="2.56">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase21_Blank_ID.test21(TestCase21_Blank_ID.java:25)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/tles
+]]></system-out>
+  </testcase>
+  <testcase name="test22" classname="tle_testcase.TestCase22_Non_Numerical_ID" time="2.273">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase22_Non_Numerical_ID.test22(TestCase22_Non_Numerical_ID.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/abcd/tles
+]]></system-out>
+  </testcase>
+  <testcase name="test23" classname="tle_testcase.TestCase23_Negative_ID" time="1.749">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase23_Negative_ID.test23(TestCase23_Negative_ID.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/-1232/tles
+]]></system-out>
+  </testcase>
+  <testcase name="test24" classname="tle_testcase.TestCase24_NonExistent_ID" time="1.735">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase24_NonExistent_ID.test24(TestCase24_NonExistent_ID.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/0/tles
+]]></system-out>
+  </testcase>
+  <testcase name="test25" classname="tle_testcase.TestCase25_1000_character_long_ID" time="2.022">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase25_1000_character_long_ID.test25(TestCase25_1000_character_long_ID.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/tles
+]]></system-out>
+  </testcase>
+  <testcase name="test26" classname="tle_testcase.TestCase26_special_characters_in_ID" time="2.647">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at tle_testcase.TestCase26_special_characters_in_ID.test26(TestCase26_special_characters_in_ID.java:26)
+]]></failure>
+    <system-out><![CDATA[URL generated is: https://api.wheretheiss.at/v1/satellites/$$$/tles
+]]></system-out>
+  </testcase>
+</testsuite>

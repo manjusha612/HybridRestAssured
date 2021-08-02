@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hybrid Rest Assured Test Suite">
+    <test name="Hybrid Rest Assured Test">
+        <classes>
+            <class name="positions_testcase.TestCase01_HappyPath_One_Timestamp">
+            </class>
+            <class name="positions_testcase.TestCase02_HappyPath_Ten_Timestamps">
+            </class>
+            <class name="positions_testcase.TestCase03_MoreThan10Timestamps">
+            </class>
+            <class name="positions_testcase.TestCase04_Blank_ID">
+            </class>
+            <class name="positions_testcase.TestCase05_Non_Numerical_ID">
+            </class>
+            <class name="positions_testcase.TestCase06_Negative_ID">
+            </class>
+            <class name="positions_testcase.TestCase07_NonExistent_ID">
+            </class>
+            <class name="positions_testcase.TestCase08_Blank_Timestamp">
+            </class>
+            <class name="positions_testcase.TestCase09_Non_Numerical_Timestamp">
+            </class>
+            <class name="positions_testcase.TestCase10_Negative_Timestamp">
+            </class>
+            <class name="positions_testcase.TestCase11_Blank_Units">
+            </class>
+            <class name="positions_testcase.TestCase12_Default_Units">
+            </class>
+            <class name="positions_testcase.TestCase13_Units_Miles">
+            </class>
+            <class name="positions_testcase.TestCase13_Units_Miles">
+            </class>
+            <class name="positions_testcase.TestCase14_1000_character_long_id">
+            </class>
+            <class name="positions_testcase.TestCase15_1000_character_long_timestamp">
+            </class>
+            <class name="positions_testcase.TestCase16_special_characters_in_timestamp">
+            </class>
+            <class name="positions_testcase.TestCase17_special_characters_in_id">
+            </class>
+            <class name="positions_testcase.TestCase18_special_characters_in_units">
+            </class>
+            <class name="tle_testcase.TestCase19_HappyPath_JSON">
+            </class>
+            <class name="tle_testcase.TestCase20_HappyPathText">
+            </class>
+            <class name="tle_testcase.TestCase21_Blank_ID">
+            </class>
+            <class name="tle_testcase.TestCase22_Non_Numerical_ID">
+            </class>
+            <class name="tle_testcase.TestCase23_Negative_ID">
+            </class>
+            <class name="tle_testcase.TestCase24_NonExistent_ID">
+            </class>
+            <class name="tle_testcase.TestCase25_1000_character_long_ID">
+            </class>
+            <class name="tle_testcase.TestCase26_special_characters_in_ID">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Hybrid Rest Assured Test Suite]">
+  <test thread-count="5" verbose="0" name="Hybrid Rest Assured Test(failed)">
+    <classes>
+      <class name="positions_testcase.TestCase03_MoreThan10Timestamps">
+        <methods>
+          <include name="test03"/>
+        </methods>
+      </class> <!-- positions_testcase.TestCase03_MoreThan10Timestamps -->
+      <class name="tle_testcase.TestCase22_Non_Numerical_ID">
+        <methods>
+          <include name="test22"/>
+        </methods>
+      </class> <!-- tle_testcase.TestCase22_Non_Numerical_ID -->
+      <class name="positions_testcase.TestCase17_special_characters_in_id">
+        <methods>
+          <include name="test17"/>
+        </methods>
+      </class> <!-- positions_testcase.TestCase17_special_characters_in_id -->
+      <class name="positions_testcase.TestCase18_special_characters_in_units">
+        <methods>
+          <include name="test18"/>
+        </methods>
+      </class> <!-- positions_testcase.TestCase18_special_characters_in_units -->
+      <class name="tle_testcase.TestCase24_NonExistent_ID">
+        <methods>
+          <include name="test24"/>
+        </methods>
+      </class> <!-- tle_testcase.TestCase24_NonExistent_ID -->
+      <class name="tle_testcase.TestCase21_Blank_ID">
+        <methods>
+          <include name="test21"/>
+        </methods>
+      </class> <!-- tle_testcase.TestCase21_Blank_ID -->
+      <class name="positions_testcase.TestCase06_Negative_ID">
+        <methods>
+          <include name="test06"/>
+        </methods>
+      </class> <!-- positions_testcase.TestCase06_Negative_ID -->
+      <class name="positions_testcase.TestCase07_NonExistent_ID">
+        <methods>
+          <include name="test07"/>
+        </methods>
+      </class> <!-- positions_testcase.TestCase07_NonExistent_ID -->
+      <class name="positions_testcase.TestCase04_Blank_ID">
+        <methods>
+          <include name="test04"/>
+        </methods>
+      </class> <!-- positions_testcase.TestCase04_Blank_ID -->
+      <class name="tle_testcase.TestCase23_Negative_ID">
+        <methods>
+          <include name="test23"/>
+        </methods>
+      </class> <!-- tle_testcase.TestCase23_Negative_ID -->
+      <class name="positions_testcase.TestCase05_Non_Numerical_ID">
+        <methods>
+          <include name="test05"/>
+        </methods>
+      </class> <!-- positions_testcase.TestCase05_Non_Numerical_ID -->
+      <class name="tle_testcase.TestCase26_special_characters_in_ID">
+        <methods>
+          <include name="test26"/>
+        </methods>
+      </class> <!-- tle_testcase.TestCase26_special_characters_in_ID -->
+      <class name="tle_testcase.TestCase25_1000_character_long_ID">
+        <methods>
+          <include name="test25"/>
+        </methods>
+      </class> <!-- tle_testcase.TestCase25_1000_character_long_ID -->
+      <class name="positions_testcase.TestCase14_1000_character_long_id">
+        <methods>
+          <include name="test14"/>
+        </methods>
+      </class> <!-- positions_testcase.TestCase14_1000_character_long_id -->
+    </classes>
+  </test> <!-- Hybrid Rest Assured Test(failed) -->
+</suite> <!-- Failed suite [Hybrid Rest Assured Test Suite] -->
