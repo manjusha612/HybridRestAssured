@@ -15,5 +15,5 @@
 1. Once the execution is complete, the test reports can be found in "HybridRestAssured\target\surefire-reports\emailable-report.html"
 
 **Note**
-1. You will notice that certain test cases will fail post execution, these are valid failures for the issues reported in "Test Scenarios.xlsx"
-2. TestCase details can be found in "Test Scenarios.xlsx"
+1. You will notice that certain test cases will fail post execution, these are valid failures for the issues reported in "Test_Scenarios.xlsx"
+2. TestCase details can be found in "Test_Scenarios.xlsx"
